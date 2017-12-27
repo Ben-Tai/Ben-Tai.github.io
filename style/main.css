@@ -1,11 +1,24 @@
 body { 
-    margin:0px;  
+    max-width: 960px;
+    margin:auto;  
+    
 }
 
+h4 {
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+    font-weight: bold;
+    background-color:rgb(197, 148, 148);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+}
 
 header{
-      background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
+    background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
     background-attachment: fixed;
+    background-repeat:no-repeat;
+    background-position: top;
     background-size: 60%;
     color:rgb(218, 62, 62);
     font-size: 40px;
