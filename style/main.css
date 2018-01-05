@@ -1,0 +1,34 @@
+.container {
+  
+}
+
+
+p  {
+    font-family: 'Encode Sans Expanded', sans-serif;
+}
+
+h1, h2, h3, h4, h5 {
+    font-family: 'Anton', sans-serif;
+}
+
+.photo {
+    max-height: 200px;
+    
+}
+
+.header {
+    background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position:center;
+    height: 40rem;
+   
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+
+
+
