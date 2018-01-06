@@ -1,34 +1,86 @@
 .container {
   
 }
-
+.content {
+    margin-top:1rem;
+}
 
 p  {
     font-family: 'Encode Sans Expanded', sans-serif;
+    text-align: center;
 }
 
 h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
+    display: inline;
 }
 
 .photo {
     max-height: 200px;
     
 }
+/*header styling*/
+    .header {
+        background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
+        background-repeat: no-repeat;
+        background-size: contain;
+        background-position:center;
+        height: 40rem;
+    
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    #sub-title {
+        border-top: 2px solid black;
+        border-bottom: 2px solid black;
+        background-color: rgba(255,255,255,0.7);
+        padding:0 5px;
+    }
+    #title {
+        color: red;
+    }
+    .heading {
+        
+    }
+    .customMargin {
+        margin-bottom: 1rem;
+    }
+/*navbar styles*/
 
-.header {
-    background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position:center;
-    height: 40rem;
-   
-    display:flex;
-    justify-content: center;
-    align-items: center;
+ul{
+    margin:0.4rem;
     text-align: center;
 }
 
+}
+nav.navbar ul 
+nav.navbar ul li {
+    margin: 0px;
+    margin-bottom: 0;
+    padding:0px;
+}
+.navbar {
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+}
+nav.navbar ul li {
+    display:inline;
+    position:relative;
+}
 
+nav.navbar ul li a {
+    color: black;
+    padding: 5px  20px;
+    text-transform: uppercase;
+    font-weight:bold;
+    text-decoration: none;
+    letter-spacing: 0.05rem;
+    font-size: 1.6rem;
+}
 
-
+nav.navbar ul li a:hover{
+    background: rgba(124, 124, 124, 0.3);
+    cursor: pointer;
+}
