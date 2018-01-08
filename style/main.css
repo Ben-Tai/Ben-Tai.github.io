@@ -52,13 +52,10 @@ h1, h2, h3, h4, h5 {
         margin-bottom: 1rem;
     }
 /*navbar styles*/
-
 ul{
     margin:0.4rem;
     text-align: center;
     list-style: none;
-}
-
 }
 nav.navbar ul 
 nav.navbar ul li {
@@ -67,16 +64,15 @@ nav.navbar ul li {
     padding:0px;
 }
 .navbar {
-    border-top: 1px solid black;
-    border-bottom: 1px solid black;
+    background-color: gray;
+    position:sticky;
 }
 nav.navbar ul li {
-    display:inline;
+    display:inline; 
     position:relative;
 }
-
 nav.navbar ul li a {
-    color: black;
+    color:white;
     padding: 5px  10px;
     text-transform: uppercase;
     font-weight:bold;
@@ -84,34 +80,57 @@ nav.navbar ul li a {
     letter-spacing: 0.05rem;
     font-size: 1.6rem;
 }
-
 nav.navbar ul li a:hover{
-    background: rgba(124, 124, 124, 0.3);
+    background: rgba(255,255,255, 0.3);
     cursor: pointer;
 }
-
+/*sub menu*/
+nav.navbar ul ul {
+    position: absolute;
+    z-index: 999;
+    background-color: gray;
+    min-width: 100%;
+    margin:0;
+    height:0;
+    overflow: hidden;   
+}
+nav.navbar ul li:hover ul{
+    height:auto;
+    overflow: auto;
+}
+nav.navbar ul ul li{
+    display:list-item;
+    border-bottom: 1px solid white;
+    
+}
+nav.navbar ul ul li a {
+    margin:0;
+    display:block;
+    line-height: 1.5rem;
+    text-transform: none;
+    font-size: 1.1rem;
+    
+}
+/*blog template styling*/
 .blogs {
     margin-top:20px;
-    text-align:center;
-       
+    text-align:center;    
 }
-
 nav.secondary ul
 nav.secondary ul li{
     margin: 0px;  
 }
-
 nav.secondary ul li a{
     text-decoration: none;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     font-size: 1.8rem;
     color: red;
 }
-
 nav.secondary ul li a:hover{
     background: rgba(124, 124, 124, 0.3);
     cursor: pointer;
 }
+
 /* Nav padding for desktop */
 @media (min-width: 750px) {
     nav.navbar ul li a{
