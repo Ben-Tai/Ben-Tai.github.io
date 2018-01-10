@@ -145,4 +145,8 @@ nav.secondary ul li a:hover{
         padding:5px 20px ;
     }
 }
-   
+
+h5#progress {
+    display:block !important;
+    border: 2px solid red;
+}
