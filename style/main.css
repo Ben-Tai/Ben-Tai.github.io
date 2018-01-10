@@ -10,19 +10,20 @@ p  {
     text-align: center;
 }
 
-h1, h2, h3, h4, h5 {
+.header h1, h2, h3, h4, h5 {
     font-family: 'Anton', sans-serif;
-    display: inline;
     letter-spacing: 0.2rem;
+    display: inline;
 }
 
 .photo {
-    max-height: 200px;
+    max-height: 80%;
     
 }
 /*header styling*/
     .header {
-        background-image: url(http://abeltasman.org.nz/wp-content/uploads/2015/05/tongiaki-waka.jpg);
+        
+        background-image: url(../images/tongiaki-waka.jpg);
         background-repeat: no-repeat;
         background-size: contain;
         background-position:center;
@@ -142,11 +143,17 @@ nav.secondary ul li a:hover{
 /* Nav padding for desktop */
 @media (min-width: 750px) {
     nav.navbar ul li a{
-        padding:5px 20px ;
+        padding:5px 20px;
     }
 }
 
-h5#progress {
-    display:block !important;
-    border: 2px solid red;
+h5#progress{
+    display: block;
 }
+
+.wireframe {
+    max-width: 100%;
+    height:auto;
+}
+
+
