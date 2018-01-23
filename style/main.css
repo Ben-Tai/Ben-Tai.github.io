@@ -2,7 +2,7 @@
 .content {
     margin-top:1rem;
 }
-p  {
+p , ul, ol {
     font-family: 'Encode Sans Expanded', sans-serif;
     text-align: center;
 }
